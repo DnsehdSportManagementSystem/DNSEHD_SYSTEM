@@ -11,4 +11,9 @@ public class TestController {
 		return "testfile";
 	}
 	
+	@GetMapping("/xbox")
+	public String xbox() {
+		return "xbox";
+	}
+	
 }
